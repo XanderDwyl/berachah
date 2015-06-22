@@ -1,0 +1,37 @@
+{
+  "name": "beracha",
+  "version": "1.0.0",
+  "authors": [
+    "Alexjander Bacalso <janderbacalso@gmail.com>"
+  ],
+  "description": "Berachah Inland Resort - website and accounting system",
+  "main": "server.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "resorts",
+    "system",
+    "accounting"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.4.1",
+    "angular-animate": "~1.4.1",
+    "angular-route": "~1.4.1",
+    "angular-sanitize": "~1.4.1",
+    "bootstrap": "~3.3.5",
+    "less": "~2.5.1",
+    "angular-resource": "~1.4.1",
+    "jquery": "~2.1.4"
+  }
+}

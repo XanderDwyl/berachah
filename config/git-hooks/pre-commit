@@ -1,0 +1,21 @@
+#!/bin/sh
+
+set -e
+
+bold=`tput bold`
+underline=`tput smul`
+normal=`tput sgr0`
+
+runs=(
+	"copy-git-hooks"
+	"eslint -- --reset --eslintrc ./"
+	"jscs -- ./"
+	"nsp -- audit-package"
+	"test"
+)
+
+for i in "${runs[@]}"
+do :
+	echo "\n\n${bold}${underline}npm run $i${normal}"
+	npm run $i
+done

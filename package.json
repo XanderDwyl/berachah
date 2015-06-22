@@ -1,0 +1,33 @@
+{
+  "name": "beracha",
+  "version": "1.0.0",
+  "description": "Berachah Inland Resort - website and accounting system",
+  "main": "server.js",
+  "eslintConfig": {
+    "globals": {
+      "specHelper": true,
+      "expect": true,
+      "$route": true,
+      "$controller": true,
+      "$location": true,
+      "$httpBackend": true,
+      "$rootScope": true,
+      "$scope": true,
+      "$interval": true
+    }
+  },
+  "scripts": {
+    "test": "npm run gulp -- test"
+  },
+  "keywords": [
+    "resort",
+    "accounting",
+    "system"
+  ],
+  "author": "Alexjander Bacalso",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^8.6.1",
+    "path": "^0.11.14"
+  }
+}
